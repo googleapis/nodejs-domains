@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "sso://user/sofialeon/nodejs-domains",
-        "sha": "c26993d3d9bffd49e1f56adf3fc25114d1ab4700"
+        "remote": "https://github.com/googleapis/nodejs-domains.git",
+        "sha": "6d3c6a246543457ce0edc7a471bafed6e61700f4"
       }
     },
     {
