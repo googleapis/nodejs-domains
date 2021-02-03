@@ -26,7 +26,7 @@ If the support paths suggested above still do not result in a resolution, please
   - OS:
   - Node.js version:
   - npm version:
-  - `undefined` version:
+  - `@google-cloud/domains` version:
 
 #### Steps to reproduce
 
