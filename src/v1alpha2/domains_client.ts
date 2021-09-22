@@ -487,6 +487,10 @@ export class DomainsClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.searchDomains(request);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.search_domains.js</caption>
+   * region_tag:domains_search_domains_sample
+   *
    */
   searchDomains(
     request?: protos.google.cloud.domains.v1alpha2.ISearchDomainsRequest,
@@ -584,6 +588,10 @@ export class DomainsClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.retrieveRegisterParameters(request);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.retrieve_register_parameters.js</caption>
+   * region_tag:domains_retrieve_register_parameters_sample
+   *
    */
   retrieveRegisterParameters(
     request?: protos.google.cloud.domains.v1alpha2.IRetrieveRegisterParametersRequest,
@@ -683,6 +691,10 @@ export class DomainsClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getRegistration(request);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.get_registration.js</caption>
+   * region_tag:domains_get_registration_sample
+   *
    */
   getRegistration(
     request?: protos.google.cloud.domains.v1alpha2.IGetRegistrationRequest,
@@ -782,6 +794,10 @@ export class DomainsClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.retrieveAuthorizationCode(request);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.retrieve_authorization_code.js</caption>
+   * region_tag:domains_retrieve_authorization_code_sample
+   *
    */
   retrieveAuthorizationCode(
     request?: protos.google.cloud.domains.v1alpha2.IRetrieveAuthorizationCodeRequest,
@@ -887,6 +903,10 @@ export class DomainsClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.resetAuthorizationCode(request);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.reset_authorization_code.js</caption>
+   * region_tag:domains_reset_authorization_code_sample
+   *
    */
   resetAuthorizationCode(
     request?: protos.google.cloud.domains.v1alpha2.IResetAuthorizationCodeRequest,
@@ -1024,6 +1044,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.registerDomain(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.register_domain.js</caption>
+   * region_tag:domains_register_domain_sample
+   *
    */
   registerDomain(
     request?: protos.google.cloud.domains.v1alpha2.IRegisterDomainRequest,
@@ -1087,6 +1111,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.register_domain.js</caption>
+   * region_tag:domains_register_domain_sample
+   *
    */
   async checkRegisterDomainProgress(
     name: string
@@ -1174,6 +1202,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.updateRegistration(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.update_registration.js</caption>
+   * region_tag:domains_update_registration_sample
+   *
    */
   updateRegistration(
     request?: protos.google.cloud.domains.v1alpha2.IUpdateRegistrationRequest,
@@ -1237,6 +1269,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.update_registration.js</caption>
+   * region_tag:domains_update_registration_sample
+   *
    */
   async checkUpdateRegistrationProgress(
     name: string
@@ -1322,6 +1358,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.configureManagementSettings(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_management_settings.js</caption>
+   * region_tag:domains_configure_management_settings_sample
+   *
    */
   configureManagementSettings(
     request?: protos.google.cloud.domains.v1alpha2.IConfigureManagementSettingsRequest,
@@ -1389,6 +1429,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_management_settings.js</caption>
+   * region_tag:domains_configure_management_settings_sample
+   *
    */
   async checkConfigureManagementSettingsProgress(
     name: string
@@ -1482,6 +1526,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.configureDnsSettings(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_dns_settings.js</caption>
+   * region_tag:domains_configure_dns_settings_sample
+   *
    */
   configureDnsSettings(
     request?: protos.google.cloud.domains.v1alpha2.IConfigureDnsSettingsRequest,
@@ -1545,6 +1593,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_dns_settings.js</caption>
+   * region_tag:domains_configure_dns_settings_sample
+   *
    */
   async checkConfigureDnsSettingsProgress(
     name: string
@@ -1636,6 +1688,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.configureContactSettings(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_contact_settings.js</caption>
+   * region_tag:domains_configure_contact_settings_sample
+   *
    */
   configureContactSettings(
     request?: protos.google.cloud.domains.v1alpha2.IConfigureContactSettingsRequest,
@@ -1703,6 +1759,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.configure_contact_settings.js</caption>
+   * region_tag:domains_configure_contact_settings_sample
+   *
    */
   async checkConfigureContactSettingsProgress(
     name: string
@@ -1795,6 +1855,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.exportRegistration(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.export_registration.js</caption>
+   * region_tag:domains_export_registration_sample
+   *
    */
   exportRegistration(
     request?: protos.google.cloud.domains.v1alpha2.IExportRegistrationRequest,
@@ -1858,6 +1922,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.export_registration.js</caption>
+   * region_tag:domains_export_registration_sample
+   *
    */
   async checkExportRegistrationProgress(
     name: string
@@ -1942,6 +2010,10 @@ export class DomainsClient {
    * @example
    * const [operation] = await client.deleteRegistration(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.delete_registration.js</caption>
+   * region_tag:domains_delete_registration_sample
+   *
    */
   deleteRegistration(
     request?: protos.google.cloud.domains.v1alpha2.IDeleteRegistrationRequest,
@@ -2005,6 +2077,10 @@ export class DomainsClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.delete_registration.js</caption>
+   * region_tag:domains_delete_registration_sample
+   *
    */
   async checkDeleteRegistrationProgress(
     name: string
@@ -2101,6 +2177,10 @@ export class DomainsClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.list_registrations.js</caption>
+   * region_tag:domains_list_registrations_sample
+   *
    */
   listRegistrations(
     request?: protos.google.cloud.domains.v1alpha2.IListRegistrationsRequest,
@@ -2186,6 +2266,10 @@ export class DomainsClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.list_registrations.js</caption>
+   * region_tag:domains_list_registrations_sample
+   *
    */
   listRegistrationsStream(
     request?: protos.google.cloud.domains.v1alpha2.IListRegistrationsRequest,
@@ -2199,7 +2283,8 @@ export class DomainsClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listRegistrations'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listRegistrations.createStream(
       this.innerApiCalls.listRegistrations as gax.GaxCall,
@@ -2254,6 +2339,10 @@ export class DomainsClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1alpha2/domains.list_registrations.js</caption>
+   * region_tag:domains_list_registrations_sample
+   *
    */
   listRegistrationsAsync(
     request?: protos.google.cloud.domains.v1alpha2.IListRegistrationsRequest,
@@ -2268,7 +2357,8 @@ export class DomainsClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listRegistrations'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listRegistrations.asyncIterate(
       this.innerApiCalls['listRegistrations'] as GaxCall,
