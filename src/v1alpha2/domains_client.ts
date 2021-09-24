@@ -2199,7 +2199,8 @@ export class DomainsClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listRegistrations'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listRegistrations.createStream(
       this.innerApiCalls.listRegistrations as gax.GaxCall,
@@ -2268,7 +2269,8 @@ export class DomainsClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listRegistrations'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listRegistrations.asyncIterate(
       this.innerApiCalls['listRegistrations'] as GaxCall,
