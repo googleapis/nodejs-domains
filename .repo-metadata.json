@@ -12,5 +12,5 @@
   "name": "domains",
   "issue_tracker": "https://github.com/googleapis/nodejs-domains/issues",
   "api_shortname": "domains",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
